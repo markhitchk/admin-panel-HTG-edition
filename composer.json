@@ -1,0 +1,46 @@
+{
+    "name": "markhitchk/flarum-admin-theme",
+    "description": "A configurable cyan glassmorphic admin dashboard theme for Flarum, created for Harley's Clan Forum.",
+    "keywords": [
+        "flarum",
+        "theme",
+        "admin",
+        "dashboard",
+        "glassmorphism",
+        "customization"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark H",
+            "homepage": "https://forum.harleytg.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarkHitchk\\AdminTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Harley's Admin Theme",
+            "icon": {
+                "name": "fas fa-palette",
+                "backgroundColor": "#00ffff",
+                "color": "#101414"
+            },
+            "category": "theme"
+        },
+        "flarum-cli": {
+            "excludeScaffolding": [
+                "js/dist/admin.js"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
