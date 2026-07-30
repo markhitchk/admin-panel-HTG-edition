@@ -52,15 +52,6 @@ Clear Flarum's cache after changing JavaScript or LESS:
 ```bash
 php flarum cache:clear
 ```
-
-## Notes
-
-- The extension is deliberately independent of `neoncube/flarum-private-messages`; that project was used only as a structural example.
-- Leave the Header Logo URL setting blank to use the bundled puppy logo.
-- Editable logo files are included under `resources/assets/`.
-- The theme applies to `/admin` only. It does not overwrite the forum frontend's Custom CSS.
-- Settings are stored in Flarum's settings table and are available only in the administrator frontend.
-
 ## License
 
 MIT
